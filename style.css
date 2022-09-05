@@ -20,7 +20,8 @@ p {
 button{
     background-color: #3882f6;
     padding: 10px;
-    border-radius: 12px;
+    border-radius: 15px;
+    font-weight: bold;
     color: white;
 }
 
@@ -63,8 +64,6 @@ ul {
     background-color: #1F2937;
     color: #e5e7eb;
     padding: 20px;
-    
-    
 }
 
 .hero {
@@ -74,6 +73,7 @@ ul {
     justify-content: space-between;
     padding-left: 300px;
     padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .hero-title {
@@ -83,7 +83,8 @@ ul {
     color: white;
 }
 
-.hero-subtitle {
+.hero-subtitle,
+.join-subtitle {
     font-size: 16px;    
     font-weight: normal;
     color: white;
@@ -105,43 +106,53 @@ ul {
 .content {
     display: flex;
     justify-content: center;
+    justify-content: space-evenly;
     flex-shrink: 0;
     gap: 20px;
 }
 
 .middle {
     display: flex;
-    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 400px;
+    background-color: #e5e7eb;
 }
 
 .quote {
-    background-color: #e5e7eb;
+    color: #1F2937;
     font-style: italic;
     font-size: 36px;
-    color: #1F2937;
-    font-weight: lighter;
-    text-align: justify;
-    padding: 200px;
+    font-weight: lighter;    
+}
+
+span {
+    float: right;
+    font-weight: bolder;
+    font-size: 24px;
+    padding-right: 150px;
 }
 
 .bottom {
     display: flex;
-    flex: 1;
+    align-items: center;
     justify-content: center;
-    padding: 50px;
-
-}
-
-.join {
+    margin-left: 650px;
+    margin-bottom: 60px;
+    padding: 30px;
     background-color: #3882f6;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 50px;
+    height: 100px;
+    width: 40%;
 }
 
+.bottom-btn {
+    margin-left: 150px;
+}
 
 .footer {
     display: flex;
